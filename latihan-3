@@ -1,0 +1,61 @@
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" >
+<title> HAMSTER </title>
+<!--bagian styke-->
+<style>
+    body {
+        background:linear-gradient(to top, #cac531, #f3f9a7) ;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container {
+       text-align: center; 
+       padding: 20px;
+    
+    }
+    h1 {
+        font-size: 32px;
+        background-color: beige;
+    }
+    h2 {
+        font-size: 25px;
+        background-color: azure; text-align: center;
+    }
+        
+    .info {
+        text-align: justify;
+        font-size: 15px;
+        margin: 30px 0;
+    }
+</style>
+</head>
+<!--Bagian Konten -->
+<body>
+    <div class="container">
+        <h1> HAMSTER </h1>
+        <img src="images/Hamster.jpg" style=" border-radius: 5px;" width="250" height="250"  >
+    <div class="info" >
+        <p>
+            <b> Salah satu spesies hamster yang paling langka adalah hamster Syrian atau hamster emas. Berasal dari gurun Suriah, hamster Syrian sering diburu hingga hampir punah pada 1920-an. Namun, pada 1930, arkeolog Israel Aharoni menemukan sarang hamster Syrian liar di Aleppo, Suriah. Induk hamster dan anak-anaknya dikumpulkan dan dipindahkan ke laboratorium di Israel. Hamster ini berhasil kawin silang dan keturunannya diekspor ke bagian lain dunia untuk perdagangan hewan peliharaan. Saat ini, hamster Syrian liar dianggap rentan terhadap kepunahan karena populasinya yang rendah. Hamster ini jarang terlihat di alam liar. Hanya tiga ekspedisi ilmiah yang telah mengamati spesies ini di alam liar, terakhir pada 1999. Menurunnya jumlah populasi hamster disebabkan perluasan praktik pertanian dan pengembangan manusia ke daerah yang dihuni hamster liar. Selain hamster Syrian, hamster Eropa adalah spesies lain yang langka di dunia. Hamster Eropa relatif berukuran besar dan agresif di penangkaran. Jenis hamster ini diketahui menyerang musang yang dikurung dan memakan keturunannya. Asal usul hamster Eropa atau habitan aslinya berasal dari ladang, dan hutan, tetapi sekarang berpindah ke kota untuk mencari makanan serta tempat berlindung.Hamster Eropa adalah mamalia yang populasinya paling cepat menurun dan sekarang tidak ada di 75 persen habitat mereka di Eropa</b>
+        </p>
+<br>
+        <h2> Macam-Macam Makanan Hamster </h2>
+<ol type="1" >
+    <li> <b> Biji-bijian  </b> <br> <br> <img src="images/biji -bijian.jpg" style="border-radius: 5px;" width="250" height="250"  > <br> <br> Biji-bijian adalah makanan hamster yang paling utama. Penting untuk menyediakan sekitar satu sendok makan per hari. Biji-bijian menyediakan protein dan karbohidrat yang diperoleh dari makanan campuran untuk hamster. Namun, hindari memberi hamster terlalu banyak biji-bijian tinggi lemak, seperti biji bunga matahari dan kacang tanah, karena dapat meningkatkan risiko obesitas pada hamster. Pastikan hanya memberi porsi kecil saja.</li>
+    <br>
+    <br>
+    <li> <B> Sayur-sayuran</B></li> <br><br> <img src="images/sayur-sayuran.jpg" style="border-radius: 5px;" width="250" height="250"  > <br> <br>Sayuran segar juga termasuk makanan hamster yang baik untuk dikonsumsi. Sayuran organik adalah pilihan terbaik. Namun, sekalipun bukan sayuran organik, beberapa jenis sayur yang baik sebagai makanan hamster termasuk selada romaine, wortel, brokoli, bayam, mentimun, kol, dan sayuran berdaun hijau gelap. Hindari sayuran atau buah-buahan tinggi air, seperti semangka dan melon, karena berpotensi membuat hamster diare.
+    <br>
+    <br>
+    <li> <b> Buah-buahan </b></li> <br> <br><img src="images/buah-buahan.jpg" style="border-radius: 5px;" width="250" height="250"  > <br> <br> Beberapa jenis buah yang dapat menjadi makanan hamster termasuk apel, pir, stroberi, dan pisang. Buah-buahan bertekstur tersebut sangat disukai hamster yang senang mengunyah sesuatu. Itu adalah perilaku alami hamster yang membantu menjaga kesehatan giginya dan menghindari pertumbuhan berlebih. Selain itu, makanan bertekstur juga memberi aktivitas bagi hamster sehingga hewan ini tak mudah bosan. Namun, pastikan memberikan buah-buahan ini dalam jumlah moderat. Selain itu, hindari pula memberikan buah-buahan sitrus, seperti jeruk atau lemon. Selain itu, pastikan tidak membiarkan sayuran atau buah-buahan lebih dari 24 jam dalam kondisi tidak dimakan.
+    <br>
+    <br>
+</ol>
+<br>
+<hr>
+Sumber :
+<ul>
+    <li><a href="https://www.kompas.com/homey/read/2022/11/20/091651676/asal-usul-hamster-hingga-menjadi-hewan-peliharaan" target="_blank"> Penjelasan tentang hamster</a></li>
+    <li><a href="https://lifestyle.kompas.com/read/2021/11/03/103250320/5-jenis-makanan-hamster-baik-untuk-dikonsumsi-dan-mudah-didapatkan" target="_blank"> Macam-macam makanan hamster</a></li>
+</ul>
+</html>
