@@ -1,0 +1,72 @@
+body  {
+    background-image: url(https://wallpapercave.com/wp/wp6295846.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    color: rgb(20, 20, 20);
+    font-size: 55px;
+    margin: 20px;
+    text-align: center;  
+}
+h2 {
+    font-size: 40px ;
+    text-align: center;
+    margin: auto;
+
+}
+/* This is
+a multi-line
+comment */
+p{
+    text-align: justify;
+}  
+table,th,td{
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 15px;
+    background-color: pink;
+    font-size: 20px;
+}
+.bungatulip {
+    background-color: rgb(255, 255, 231);
+    width: 800px;
+    height: auto;
+    border: 20px solid pink;
+    padding: 50px;
+    margin: 30px;
+    font-size: 23px;
+
+}
+.makna {
+    background-color: rgb(255, 255, 231);
+    padding: 30px;
+    margin: 250px;
+    font-size: 20px;
+}
+#jenis {
+    background-color: pink;
+    text-align: center;
+    font-size: 40px;
+    border: 20px solid rgb(255, 255, 231);
+    padding: 50px;
+    margin-left: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 500px;
+
+}
+.jenistulip {
+    background-color: rgb(255, 255, 231);
+    width: 800px;
+    height: auto;
+    border: 20px solid pink;
+    padding: 50px;
+    margin: 30px;
+    font-size: 23px;
+}
+ul.a {
+    list-style-type: circle;
+    text-align: justify;
+  }
