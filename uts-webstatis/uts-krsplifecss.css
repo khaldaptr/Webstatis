@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: sans-serif;
+    background-color: rgb(250, 228, 231);
+    
+} 
+
+/* Header */
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(250, 228, 231);
+    display: flex;
+    padding-left: 50px;
+
+   
+}
+
+.header h1 {
+    
+    padding: 20px; 
+    font-size: 30px;
+    display: inline-block;
+}
+ 
+/* navigation bar */
+.navbar {
+
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    
+}
+.navbar a {
+   
+    display: inline-block;
+    color: rgb(230, 245, 240);
+    padding: 10px 50px ;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(220, 247, 244);
+    color: black;
+}
+
+.navbar a .dropdown {
+    
+    display: inline-block;
+    
+}
+  
+.dropdown-menu {
+    
+    display: none;
+    position: absolute;
+    min-width:160px ;
+    z-index: 1;
+    
+}
+  
+.dropdown-menu a {
+    
+    padding: 10px 50px ;
+    text-decoration: none;
+    display: block;   
+}
+
+.dropdown:hover >.dropdown-menu{
+    display: block;
+}
+  
+
+
+/* Home Page */
+.homepage{
+    background-image: url(img.uts/IMG_20231111_163954.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height:100vh;
+}
+.welcome{
+    background-color: rgba(211, 211, 211, 0.363);
+    float: right;
+    width: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 210px;
+    justify-content: center ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+.welcomekrsp{
+    width: 700px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    background-color: black;
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.place{
+    padding-top: 25px;
+
+}
+.place-img{
+    display: flex;
+    justify-content: center;
+}
+.row {  
+    display:-ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+}
+.main-journey{
+    background-color: pink;
+    -ms-flex: 60%; 
+    flex: 60%;
+    padding: 20px;
+}
+.main-journey h1{
+    text-align: center; 
+    background-color: rgb(220, 247, 244);
+    border-radius: 5px;
+}
+.side{
+    -ms-flex: 40%;
+    flex: 40%;
+    padding: 20px;
+    background-color: rgb(220, 247, 244);
+    
+}
+
+/* About */
+
+.header-about{
+    margin-top: 30px;
+    height: 130px;
+    background-image: url(img.uts/Header4.png);
+    background-repeat: no-repeat;
+    display: flexbox;
+}
+
+/* Main-About */
+
+.sejarah{
+    height: 450px;
+    margin: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 50px;
+    background-color: black;
+    color:whitesmoke;
+}
+.pvm {
+    display: flex;
+}
+.profil{
+    border-radius: 10px;
+    width: 620px;
+    margin: 50px;
+    margin-right: 25px;
+    padding: 30px; 
+    background-color: rgb(247, 198, 204);
+    text-align: justify;
+    
+}
+.visi-misi{
+    border-radius: 10px;
+    margin: 50px;
+    width: 550px;
+    background-color:rgb(247, 198, 204);
+    padding: 30px;
+}
+
+/* Journey */
+
+.header-journey {
+    margin-top: 30px;
+    height: 130px;
+    background-image: url(img.uts/Header4.png);
+    background-repeat: no-repeat;
+    display: flexbox;
+}
+
+/* Main-Journey*/
+
+.journey-cover{
+    margin-top: 10px;
+    background-image: url(img.uts/COVER.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:black;
+    text-align: center;
+    
+}
+.list-journey
+.journey1{
+    background-color: rgba(211, 211, 211, 0.747);
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px; 
+    
+}
+
+.journey2{
+    background-color: rgba(211, 211, 211, 0.747);
+    margin: 50px;
+    padding: 30px;
+}
+
+/* Gallery */
+.header-gallery {
+    margin-top: 30px;
+    height: 130px;
+    background-image: url(img.uts/Header4.png);
+    background-repeat: no-repeat;
+    display: flexbox;
+}
+/* Main Gallery */
+.main-gallery {
+    margin: 10px;
+    display: flex;
+    
+}
+.side-hobi{
+    margin: 20px;
+    margin-left: 30px;
+    background-color: pink;
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+}
+.side-hobi img{
+    height: 200px;
+    border-radius: 50%;
+}
+.fotokha{
+    margin: 20px;
+    margin-left: 370px;
+    padding: 15px;
+    background-color: lightgrey;
+    width: 70%;
+    height: 100%;
+    
+}
+.fotokha img{
+    height: 200px;
+
+}
+
+/* Recommendation */
+
+.header-recommendation{
+    margin-top: 30px;
+    height: 130px;
+    background-image: url(img.uts/Header4.png);
+    background-repeat: no-repeat;
+    display: flexbox;
+}
+
+/* Main Recommendation  */
+
+.main-recom{
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    
+    
+}
+ul {
+    list-style-type: circle;
+}
+
+/* Registration*/
+
+.header-registration{
+    margin-top: 30px;
+    height: 130px;
+    background-image: url(img.uts/Header4.png);
+    background-repeat: no-repeat;
+    display: flexbox;
+}
+
+/* Main Registration*/
+
+
+/* Contact */
+
+.header-contact{
+    margin-top: 30px;
+    height: 130px;
+    background-image: url(img.uts/Header4.png);
+    background-repeat: no-repeat;
+    display: flexbox;
+}
+
+
+@media screen {
+    
+}
