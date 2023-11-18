@@ -1,0 +1,591 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: sans-serif;
+    background-color: rgb(250, 228, 231);
+    
+} 
+
+/* Header */
+.header {
+    width: 100%;
+    min-width: 400px;
+    height: 100px;
+    background-color: rgb(250, 228, 231);
+    display: flex;
+    padding-left: 50px;
+
+   
+}
+
+.header h1 {
+    
+    padding: 20px; 
+    font-size: 30px;
+    display: inline-block;
+}
+ 
+/* navigation bar */
+.navbar {
+    background-color: black;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    
+    
+}
+.navbar a {
+    display: inline-block;
+    text-align: left;
+    padding: 14px 50px;
+    color:rgb(220, 247, 244);
+    text-decoration: none;
+    
+
+}
+
+.navbar a:hover {
+    background-color: rgb(220, 247, 244);
+    color: black;
+}
+
+.navbar a .dropdown {
+    
+    display: inline-block;
+    
+}
+  
+.dropdown-menu {
+    
+    display: none;
+    position: absolute;
+    min-width:160px ;
+    z-index: 1;
+    
+}
+  
+.dropdown-menu a {
+    
+    padding: 14px 50px;
+    text-decoration: none;
+    display: block;   
+}
+
+.dropdown:hover >.dropdown-menu{
+    display: block;
+}
+
+
+
+
+/* Home Page */
+.homepage{
+    background-image: url(img.uts/IMG_20231111_163954.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100vh;
+}
+.welcome{
+    background-color: rgba(211, 211, 211, 0.363);
+    float: right;
+    width: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 210px;
+    justify-content: center ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+.welcomekrsp{
+    width: 700px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    background-color: black;
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.place{
+    padding-top: 25px;
+}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: pink;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+
+.bg-rekomen-home{
+    background-color: pink;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    max-width: 100%;
+
+    
+}
+.rekomendasi-home{
+    width: 700px;
+    padding: 30px;
+}
+
+
+.main-journey{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mj{
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #bbb;
+}
+
+
+/* Footer */
+.footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* About */
+
+.header-about{
+    margin-top: 30px;
+    height: 130px;
+    background-image: url(img.uts/Header4.png);
+    background-repeat: no-repeat;
+    display: flexbox;
+}
+
+/* Main-About */
+
+.profil{
+    margin-top: 70px;
+    padding: 30px; 
+    background-color: rgb(247, 198, 204);
+    text-align: justify;
+}
+
+.sejarah{
+    margin-top:100px;
+    padding: 30px; 
+    background-color: black;
+    color:whitesmoke;
+}
+
+
+.visi-misi{
+    
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color:rgb(247, 198, 204);
+    padding: 30px;
+}
+
+/* Journey */
+
+.header-journey {
+    margin-top: 30px;
+    height: 130px;
+    background-image: url(img.uts/Header4.png);
+    background-repeat: no-repeat;
+    display: flexbox;
+}
+
+/* Main-Journey*/
+
+.journey-cover{
+    margin-top: 10px;
+    background-image: url(img.uts/COVER.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:black;
+    text-align: center;
+    
+}
+
+
+.journey1{
+    background-color: rgba(211, 211, 211, 0.747);
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px; 
+    
+}
+
+.journey2{
+    background-color: rgba(211, 211, 211, 0.747);
+    margin: 50px;
+    padding: 30px;
+}
+
+
+/* Gallery */
+.header-gallery {
+    margin-top: 30px;
+    height: 130px;
+    background-image: url(img.uts/Header4.png);
+    background-repeat: no-repeat;
+    display: flexbox;
+}
+/* Main Gallery */
+.main-gallery {
+    margin: 10px;
+    display: flex;
+    
+}
+.side-youtube{
+    margin: 20px;
+    margin-left: 30px;
+    color: whitesmoke;
+    background-color: black;
+    position: fixed;
+    width: 50%;
+    max-width: 300px;
+    padding: 15px;
+    text-align: center;
+}
+
+.fotokha{
+    margin: 20px;
+    margin-left: 370px;
+    padding: 20px;
+    background-image: url(img.uts/COVER.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 70%;
+    height: 100%;
+}
+.img-gabungan {
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+.tempat-yang-dikunjungi{
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+  
+.tempat-yang-dikunjungi:hover .overlay {
+    opacity: 1;
+}
+.kegiatan-dirumah{
+    margin: 20px;
+    margin-left: 370px;
+    padding: 20px;
+    background-image: url(img.uts/COVER.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 70%;
+    height: 100%;
+    color: whitesmoke;
+}
+.myfriend{
+    margin: 20px;
+    margin-left: 370px;
+    padding: 20px;
+    background-image: url(img.uts/COVER.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 70%;
+    height: 100%;
+    color: whitesmoke;
+
+}
+.myfamily{
+    margin: 20px;
+    margin-left: 370px;
+    padding: 20px;
+    background-image: url(img.uts/COVER.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 70%;
+    height: 100%;
+    color: whitesmoke;
+
+}
+
+div.scroll-container{
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+div.scroll-container-img {
+    padding: 10px;
+}
+
+
+
+/* Recommendation */
+
+.header-recommendation{
+    margin-top: 30px;
+    height: 130px;
+    background-image: url(img.uts/Header4.png);
+    background-repeat: no-repeat;
+    display: flexbox;
+}
+
+/* Main Recommendation  */
+
+.main-recom{
+    text-align: center;
+    margin: 30px;
+    padding: 30px; 
+}
+.transportasi{
+    
+    background-image: url(img.uts/COVER.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;   
+}
+
+.trans-bg {
+    background-color: rgba(211, 211, 211, 0.808); 
+    padding: 20px;
+    margin: 30px;
+    color: black;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+/* Registration*/
+
+.header-registration{
+    margin-top: 30px;
+    height: 130px;
+    background-image: url(img.uts/Header4.png);
+    background-repeat: no-repeat;
+    display: flexbox;
+}
+
+/* Main Registration*/
+.regis{
+    margin-top: 10px;
+    background-image: url(img.uts/COVER.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+.kata{
+    width: 300px;
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.sub-kata{
+    width: 300px;
+    background-color: rgba(211, 211, 211, 0.849);
+    color:black;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px;
+    
+}
+
+
+input[type=text], select, textarea {
+    width: 260px;
+    padding: 12px;
+    border: 1px solid rgba(211, 211, 211, 0.849);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: palevioletred;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+  
+.container {
+    width: 300px;
+    background-color:black;
+    padding: 20px;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Contact */
+
+.header-contact{
+    margin-top: 30px;
+    height: 130px;
+    background-image: url(img.uts/Header4.png);
+    background-repeat: no-repeat;
+    display: flexbox;
+}
+.main-contact{
+    display: flex;
+    margin:20px;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.contact{
+    width: 500px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-top: 100px;
+    
+}
+.maps{
+    width: 500px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    padding-top: 100px;
+    
+}
+
+.fa {
+    
+    font-size: 20px;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+ 
+.fa-instagram {
+    background: rgb(143, 8, 64);
+    color: white;
+}
+
+.fa-google {
+    background: rgb(27, 27, 105);
+    color: white;
+}
+
+
+
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
